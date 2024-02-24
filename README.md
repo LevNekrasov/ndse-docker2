@@ -2,7 +2,7 @@
 
 ## Задание 1: контейнеризация
 
-Контейнеризировать приложение «Библиотека» 
+Контейнеризировать приложение «Библиотека»
 `docker pull levnekrasov/library:v1.0.0`
 `docker run -it --rm -p 80:3002 -e PORT=3002 levnekrasov/library:v1.0.0`
 
@@ -11,4 +11,3 @@
 Запускает «Библиотека» и "Счетчик" `docker compose up`
 
 Открывается сайт `http://localhost:3000/books/`
- 
